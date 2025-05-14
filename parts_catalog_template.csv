@@ -1,0 +1,4 @@
+id,sku,part_name,brand,vehicle_type,category,price,image_url,affiliate_link,updated_at
+1001,10670-4-0-3,AFCO 70 Series Stock Mono-Tube Shock,AFCO,UTV,Suspension,219.99,https://example.com/images/afco-70series.jpg,https://affiliate.example.com/1001,2025-05-13T12:26:45.593689
+1002,91002968,1955-85 Chevy Flexplate,AFCO,Universal,Drivetrain,89.99,https://example.com/images/chevy-flexplate.jpg,https://affiliate.example.com/1002,2025-05-13T12:26:45.593706
+1003,91913107,Speedway 1934 Ford Chrome Bumper,Speedway,SxS,Exterior,139.99,https://example.com/images/ford-chrome-bumper.jpg,https://affiliate.example.com/1003,2025-05-13T12:26:45.593709

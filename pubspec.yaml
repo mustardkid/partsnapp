@@ -1,0 +1,30 @@
+name: partsnapp
+description: A UTV parts discovery app – snap, speak, or search your part.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.5
+  cloud_firestore: ^4.17.5
+  url_launcher: ^6.2.5
+  uuid: ^4.3.1
+  image_picker: ^1.1.2
+  speech_to_text: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

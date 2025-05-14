@@ -1,0 +1,46 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "partsnapp",
+          "appId": "1:1020222733781:android:7b1eda4ff9f8661ca3915c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "partsnapp",
+          "configurations": {
+            "android": "1:1020222733781:android:7b1eda4ff9f8661ca3915c",
+            "web": "1:1020222733781:web:e857ecbfdeacbb68a3915c",
+            "windows": "1:1020222733781:web:ae2b3806a8f2a273a3915c"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
